@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins" sans-serif;
+}
+.container{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.card{
+    background: url("bg.png");
+    height: 300px;
+    width: 500px;
+    border-radius: 30px;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+.card .logo{
+   height: 50px;
+   width: 80px; 
+   margin: 30px;
+}
+.card header h2{
+    color: white;
+    position: absolute;
+    left: 100px;
+}
+.text{
+    color: white;
+}
+.card header .chip{
+    height: 50px;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+
+}
+.card header .card_name h2 {
+ position: absolute;
+ top: 43px;
+ left: 140px;
+}
+.text .num{
+    padding: 30px;
+}
+main .name h2{
+    padding: 30px;
+}
+main .name .valid{
+ position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
